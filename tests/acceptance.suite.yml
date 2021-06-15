@@ -17,8 +17,8 @@ modules:
             connection_timeout: 120
             pageload_timeout: 60
             capabilities:
-                goog: chromeOptions:
-                            args: ["--headless", "--disable-gpu"]
+                goog:chromeOptions:
+                         args: [ "--headless", "--disable-gpu" ]
         - \Helper\Acceptance
         - Asserts
         
